@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nápoles Unidos</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <header class="bg-green-700 text-white p-4 shadow">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Nápoles Unidos</h1>
+      <nav>
+        <ul class="flex gap-4">
+          <li><a href="#inicio" class="hover:underline">Inicio</a></li>
+          <li><a href="#nosotros" class="hover:underline">Quiénes somos</a></li>
+          <li><a href="#eventos" class="hover:underline">Eventos</a></li>
+          <li><a href="#contacto" class="hover:underline">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto p-6">
+    <section id="inicio" class="py-10">
+      <h2 class="text-3xl font-bold mb-4">Bienvenidos a Nápoles Unidos</h2>
+      <p>Somos una organización comunitaria dedicada a fortalecer los lazos entre vecinos y promover un entorno más justo, inclusivo y sostenible.</p>
+    </section>
+
+    <section id="nosotros" class="py-10 bg-white rounded shadow my-6 p-6">
+      <h2 class="text-2xl font-semibold mb-4">¿Quiénes somos?</h2>
+      <p>Nápoles Unidos nace de la unión de vecinos con un objetivo común: mejorar nuestra comunidad a través de la participación activa, la cultura y el respeto por nuestro entorno.</p>
+    </section>
+
+    <section id="eventos" class="py-10">
+      <h2 class="text-2xl font-semibold mb-4">Próximos eventos</h2>
+      <ul class="list-disc pl-5">
+        <li>Fiesta del Barrio - 15 de junio</li>
+        <li>Jornada de limpieza comunitaria - 22 de junio</li>
+        <li>Encuentro cultural - 5 de julio</li>
+      </ul>
+    </section>
+
+    <section id="contacto" class="py-10 bg-white rounded shadow my-6 p-6">
+      <h2 class="text-2xl font-semibold mb-4">Contacto</h2>
+      <form class="space-y-4">
+        <input type="text" placeholder="Nombre" class="w-full p-2 border rounded" />
+        <input type="email" placeholder="Correo electrónico" class="w-full p-2 border rounded" />
+        <textarea placeholder="Mensaje" class="w-full p-2 border rounded"></textarea>
+        <button type="submit" class="bg-green-700 text-white px-4 py-2 rounded">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="bg-green-700 text-white text-center p-4">
+    © 2025 Nápoles Unidos. Todos los derechos reservados.
+  </footer>
+</body>
+</html>
